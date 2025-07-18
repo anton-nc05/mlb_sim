@@ -1,0 +1,15 @@
+date,away_team,home_team,away_ml,home_ml,away_implied_prob,home_implied_prob,total_line,over_odds,under_odds
+2025-07-18,Boston Red Sox,Chicago Cubs,114,-134,0.4673,0.5726,,100,-122
+2025-07-18,Chicago White Sox,Pittsburgh Pirates,133,-163,0.4292,0.6198,,-118,-103
+2025-07-18,Los Angeles Angels,Philadelphia Phillies,178,-220,0.3597,0.6875,,-115,-105
+2025-07-18,San Diego Padres,Washington Nationals,-149,122,0.5984,0.4505,,-117,-104
+2025-07-18,San Francisco Giants,Toronto Blue Jays,123,-150,0.4484,0.6,,-110,-110
+2025-07-18,Oakland Athletics,Cleveland Guardians,113,-137,0.4695,0.5781,,-107,-113
+2025-07-18,Cincinnati Reds,New York Mets,130,-154,0.4348,0.6063,,-105,-115
+2025-07-18,Kansas City Royals,Miami Marlins,-120,102,0.5455,0.495,,-106,-114
+2025-07-18,New York Yankees,Atlanta Braves,-110,-110,0.5238,0.5238,,-115,-105
+2025-07-18,Baltimore Orioles,Tampa Bay Rays,106,-124,0.4854,0.5536,,-106,-114
+2025-07-18,Detroit Tigers,Texas Rangers,-116,-102,0.537,0.505,,-115,-105
+2025-07-18,Minnesota Twins,Colorado Rockies,-166,140,0.6241,0.4167,,-120,-102
+2025-07-18,St. Louis Cardinals,Arizona Diamondbacks,108,-131,0.4808,0.5671,,-102,-120
+2025-07-18,Houston Astros,Seattle Mariners,112,-137,0.4717,0.5781,,-108,-112
