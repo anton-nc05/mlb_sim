@@ -1,0 +1,14 @@
+date,away_team,home_team,away_ml,home_ml,away_implied_prob,home_implied_prob,total_line,over_odds,under_odds
+2025-07-20,Baltimore Orioles,Tampa Bay Rays,-660,412,0.8684,0.1953,,-102,-127
+2025-07-20,New York Yankees,Atlanta Braves,-650,420,0.8667,0.1923,,102,-136
+2025-07-20,Cincinnati Reds,New York Mets,280,-390,0.2632,0.7959,,-106,-125
+2025-07-20,Chicago White Sox,Pittsburgh Pirates,-6000,1400,0.9836,0.0667,,-120,-110
+2025-07-20,Oakland Athletics,Cleveland Guardians,1100,-4000,0.0833,0.9756,,-112,-118
+2025-07-20,Kansas City Royals,Miami Marlins,-20000,2500,0.995,0.0385,,-130,-102
+2025-07-20,Los Angeles Angels,Philadelphia Phillies,-700,440,0.875,0.1852,,-140,106
+2025-07-20,Boston Red Sox,Chicago Cubs,180,-250,0.3571,0.7143,,100,-133
+2025-07-20,Minnesota Twins,Colorado Rockies,-370,265,0.7872,0.274,,-102,-130
+2025-07-20,Houston Astros,Seattle Mariners,130,-143,0.4348,0.5885,,-106,-114
+2025-07-20,St. Louis Cardinals,Arizona Diamondbacks,120,-142,0.4545,0.5868,,100,-122
+2025-07-20,Milwaukee Brewers,Los Angeles Dodgers,140,-166,0.4167,0.6241,,-120,-102
+2025-07-20,Detroit Tigers,Texas Rangers,-184,154,0.6479,0.3937,,-114,-106
