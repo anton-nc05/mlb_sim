@@ -11,7 +11,7 @@ import math
 
 TEAM_INPUTS = "Team_Inputs(1).csv"
 HISTORICAL  = "Historical_data.csv"
-ODDS        = "mlb_odds_2025-07-20.csv"
+ODDS        = "mlb_odds_2025-07-21.csv"
 ELOS        = "inseason_elos.csv"
 
 # ─── HELPERS ───────────────────────────────────────────────────────────────────
