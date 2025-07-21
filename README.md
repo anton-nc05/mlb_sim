@@ -22,9 +22,9 @@ mlb_api_test.py - MLB API connection and data retrieval
 odds_api_test.py - Sports betting odds API integration
 
 Data Files
-Historical_data.csv - Historical MLB game results and statistics
-Team_Inputs(1).csv - Team-specific input parameters and settings
-inseason_elos.csv - Current season Elo ratings
-inseason_elos_fixed.csv - Processed and validated Elo ratings
-mlb_odds_2025-07-21.csv - Daily betting odds data
+- Historical_data.csv - Historical MLB game results and statistics
+- Team_Inputs(1).csv - Team-specific input parameters and settings
+- inseason_elos.csv - Current season Elo ratings
+- inseason_elos_fixed.csv - Processed and validated Elo ratings
+- mlb_odds_2025-07-21.csv - Daily betting odds data
 
