@@ -121,7 +121,7 @@ def main():
             home_ml = next((o["price"] for o in outcomes_h2h if o["name"] == home), None)
             if away_ml is None or home_ml is None:
                 continue
-
+ 
             # Implied probabilities
             away_imp = american_implied_prob(away_ml)
             home_imp = american_implied_prob(home_ml)
