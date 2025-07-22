@@ -1,0 +1,16 @@
+Matchup,Pick,Combined,Confidence,Poisson,Elo,Expected,Kelly Size
+BAL @ CLE,Baltimore Orioles,0.394,10.6%,0.371,0.463,CLE 3.6 - BAL 4.0,12.6%
+DET @ PIT,Detroit Tigers,0.48,2.0%,0.5,0.419,PIT 3.8 - DET 3.3,
+SDP @ MIA,San Diego Padres,0.421,7.9%,0.482,0.24,MIA 3.6 - SDP 3.2,7.2%
+BOS @ PHI,Boston Red Sox,0.481,1.9%,0.447,0.583,PHI 3.6 - BOS 3.5,8.6%
+CIN @ WSN,Cincinnati Reds,0.47,3.0%,0.475,0.456,WSN 3.5 - CIN 3.2,
+NYY @ TOR,New York Yankees,0.402,9.8%,0.431,0.312,TOR 3.7 - NYY 3.7,11.1%
+LAA @ NYM,PASS,0.497,0.3%,0.43,0.697,NYM 3.5 - LAA 3.4,
+SFG @ ATL,San Francisco Giants,0.445,5.5%,0.39,0.61,ATL 3.4 - SFG 3.7,3.9%
+CWS @ TBR,Chicago White Sox,0.335,16.5%,0.278,0.506,TBR 3.5 - CWS 4.7,16.9%
+KCR @ CHC,Kansas City Royals,0.451,4.9%,0.447,0.464,CHC 3.7 - KCR 3.5,10.8%
+OAK @ TEX,Oakland Athletics,0.449,5.1%,0.443,0.466,TEX 3.4 - OAK 3.2,10.9%
+STL @ COL,St. Louis Cardinals,0.451,4.9%,0.528,0.221,COL 3.5 - STL 2.8,
+HOU @ ARI,Arizona Diamondbacks,0.522,2.2%,0.56,0.407,ARI 4.1 - HOU 3.2,4.1%
+MIL @ SEA,Milwaukee Brewers,0.459,4.1%,0.44,0.515,SEA 3.9 - MIL 3.8,5.6%
+MIN @ LAD,PASS,0.509,0.9%,0.46,0.658,LAD 3.8 - MIN 3.5,
