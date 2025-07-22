@@ -1,12 +1,4 @@
-# File: odds_api_test.py
-"""
-Fetches today’s MLB moneyline and totals odds, computes implied probabilities,
-and writes the results to a CSV file.
-
-Usage:
-    pip install requests
-    ODDS_API_KEY=your_real_key_here python odds_api_test.py
-"""
+#gets daily odds for mlb TRY TO RUN BEFORE GAMES START
 
 import os
 import datetime
@@ -43,7 +35,7 @@ def main():
     today = datetime.date.today()
     print(f"Writing MLB odds for {today} to CSV...")
 
-    # 1) Fetch sports list and find MLB
+    #find mlb in odds
     sports = fetch_json(
         session,
         f"{BASE_URL}/sports/",
@@ -55,7 +47,7 @@ def main():
         print("MLB sport key not found.")
         return
 
-    # 2) Fetch both moneyline (h2h) and totals markets
+    #fetch moneyline/totals
     events = fetch_json(
         session,
         f"{BASE_URL}/sports/{mlb['key']}/odds/",
@@ -70,8 +62,7 @@ def main():
     if not events:
         print("No MLB odds available right now.")
         return
-
-    # 3) Open CSV for writing
+    
     output_file = f"mlb_odds_{today}.csv"
     with open(output_file, "w", newline="") as csvfile:
         writer = csv.writer(csvfile)
@@ -88,7 +79,7 @@ def main():
             "under_odds"
         ])
 
-        # 4) Loop through events, filter by today, and write rows
+        #filter by day/write rows 
         for event in events:
             ct = event.get("commence_time")
             if not ct:
@@ -115,25 +106,24 @@ def main():
             if not h2h or not totals:
                 continue
 
-            # Moneyline odds
+            #moneyline odds
             outcomes_h2h = h2h.get("outcomes", [])
             away_ml = next((o["price"] for o in outcomes_h2h if o["name"] == away), None)
             home_ml = next((o["price"] for o in outcomes_h2h if o["name"] == home), None)
             if away_ml is None or home_ml is None:
                 continue
  
-            # Implied probabilities
             away_imp = american_implied_prob(away_ml)
             home_imp = american_implied_prob(home_ml)
 
-            # Totals (over/under)
+            #estimate totals for O/U
             outcomes_totals = totals.get("outcomes", [])
             over = next((o for o in outcomes_totals if o["name"].startswith("Over")), None)
             under = next((o for o in outcomes_totals if o["name"].startswith("Under")), None)
             if not over or not under:
                 continue
 
-            # Parse the total line (e.g. "Over 8.5")
+            #create O/U 
             try:
                 total_line = float(over["name"].split(" ")[1])
             except Exception:
